@@ -1,4 +1,4 @@
-package spring.boot.cload.uiservice;
+package spring.boot.cloud.uiservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

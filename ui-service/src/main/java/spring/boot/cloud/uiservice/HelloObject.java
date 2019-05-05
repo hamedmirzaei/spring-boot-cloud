@@ -1,4 +1,4 @@
-package spring.boot.cload.uiservice;
+package spring.boot.cloud.uiservice;
 
 public class HelloObject {
     private String message;
