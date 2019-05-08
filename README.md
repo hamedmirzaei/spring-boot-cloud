@@ -28,3 +28,6 @@ interfaces to communicate with endpoints. This interfaces will be automatically 
 runtime and instead of service-urls, it is using service-names. it will be start on port `8767` and 
 consumes content provided by `eureka-client` on `/greeting` address. 
 Use [http://localhost:8767/](http://localhost:8767/) to see the result.
+
+# Next
+I am going to add `fallback` support for `feign` client
