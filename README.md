@@ -3,11 +3,11 @@
 This is a simple example to show you how Spring Cloud works with Spring Boot.
 
 # Libraries and Tools
-* [Module] `Spring Boot`
-* [Module] `Spring Cloud`
+* [Module] [`Spring Boot`](https://spring.io/projects/spring-boot)
+* [Module] [`Spring Cloud`](https://spring.io/projects/spring-cloud)
 * [Module] `Spring Web`
 * [Module] `Eureka Server/Client`
-* [Library for auto-generating getters, setters, constructors and others] `Lombok`
+* [Library for auto-generating getters, setters, constructors and others] [`Lombok`](https://projectlombok.org/)
 * [Library] `Thymeleaf`
 
 # How it works
