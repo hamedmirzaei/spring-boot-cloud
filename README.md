@@ -26,8 +26,7 @@ Another module is `ui-feign-service` which uses `Feign` and registered in `eurek
 `spring-cloud-ui-feign-service`. Think of Feign as discovery-aware _Spring RestTemplate_ using 
 interfaces to communicate with endpoints. This interfaces will be automatically implemented at 
 runtime and instead of service-urls, it is using service-names. it will be start on port `8767` and 
-consumes content provided by `eureka-client` on `/greeting` address. 
-Use [http://localhost:8767/](http://localhost:8767/) to see the result.
+consumes content provided by `eureka-client` on `/greeting` address. In case which `eureka-client` is down, it uses 
+fallback mechanism and returns `Service is not available` message. 
+Use [http://localhost:8767/](http://localhost:8767/get-greeting) to see the result.
 
-# Next
-I am going to add `fallback` support for `feign` client
