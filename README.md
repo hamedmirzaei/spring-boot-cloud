@@ -28,5 +28,5 @@ interfaces to communicate with endpoints. This interfaces will be automatically 
 runtime and instead of service-urls, it is using service-names. it will be start on port `8767` and 
 consumes content provided by `eureka-client` on `/greeting` address. In case which `eureka-client` is down, it uses 
 fallback mechanism and returns `Service is not available` message. 
-Use [http://localhost:8767/](http://localhost:8767/get-greeting) to see the result.
+Use [http://localhost:8767/get-greeting](http://localhost:8767/get-greeting) to see the result.
 
