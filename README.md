@@ -12,6 +12,9 @@ This is a simple example to show you how Spring Cloud works with Spring Boot.
 * [Database] `H2`
 
 # How it works
+
+![Architecture](imgs/spring-cloud-eureka.png)
+
 This is a simple demo to explain how `Spring Cloud` works. In order to run it, you should first start 
 `eureka-server` module which is the _Service Registry_ and other services need to be registered there 
 (monitor it via [http://localhost:8761/](http://localhost:8761/)).
