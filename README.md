@@ -9,6 +9,7 @@ This is a simple example to show you how Spring Cloud works with Spring Boot.
 * [Module] `Eureka Server/Client`
 * [Library for auto-generating getters, setters, constructors and others] [`Lombok`](https://projectlombok.org/)
 * [Library] `Thymeleaf`
+* [Database] `H2`
 
 # How it works
 This is a simple demo to explain how `Spring Cloud` works. In order to run it, you should first start 
