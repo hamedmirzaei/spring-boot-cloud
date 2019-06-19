@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>spring.boot.cloud</groupId>
-    <artifactId>spring_boot_cloud</artifactId>
+    <artifactId>spring-boot-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring_boot_cloud</name>
+    <name>spring-boot-cloud</name>
     <description>Demo project for Spring Boot + Spring Cloud</description>
 
     <modules>
